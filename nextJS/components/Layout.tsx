@@ -1,4 +1,5 @@
 import Header from './Header';
+import { ReactNode } from 'react';
 
 const layoutStyle = {
   margin: 20,
@@ -7,32 +8,14 @@ const layoutStyle = {
 };
 
 interface ILayoutProps {
-  children: any;
+  children?: ReactNode;
 }
-// 1. как children
-const Layout = ({children}:ILayoutProps)  => (
+
+const Layout: React.FC = ({children}:ILayoutProps)  => (
   <div style={layoutStyle}>
     <Header/>
     {children}
   </div>
 );
-
-// 2. как props
-// const Layout = props => (
-//   <div style={layoutStyle}>
-//     <Header />
-//     {props.content}
-//   </div>
-// );
-
-// 3. как HOC
-// const withLayout = Page => {
-//     return () => (
-//       <div style={layoutStyle}>
-//         <Header />
-//         <Page />
-//       </div>
-//     );
-//   };
 
 export default Layout;

@@ -1,5 +1,6 @@
 {
-        "menu": "Home",
+        "home": "Home",
+        "about": "About",
         "title": "My Blog",
         "posts": [
             { "id": "hello-nextjs", "title": "Hello Next.js"},

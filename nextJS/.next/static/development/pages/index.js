@@ -13,50 +13,71 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/nextJS/components/Header.tsx";
+/* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Header.tsx";
 
- // import { FormattedMessage } from 'react-intl';
+
 
 var linkStyle = {
   marginRight: 15
 };
 
 var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["IntlProvider"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, " Home ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
+    id: "home",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), "  ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "About")));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
+    id: "about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -75,7 +96,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.tsx");
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/nextJS/components/Layout.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Layout.tsx";
 
 
 var layoutStyle = {
@@ -84,40 +105,23 @@ var layoutStyle = {
   border: '1px solid #DDD'
 };
 
-// 1. как children
 var Layout = function Layout(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: layoutStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), children);
-}; // 2. как props
-// const Layout = props => (
-//   <div style={layoutStyle}>
-//     <Header />
-//     {props.content}
-//   </div>
-// );
-// 3. как HOC
-// const withLayout = Page => {
-//     return () => (
-//       <div style={layoutStyle}>
-//         <Header />
-//         <Page />
-//       </div>
-//     );
-//   };
-
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -127,10 +131,10 @@ var Layout = function Layout(_ref) {
 /*!******************************!*\
   !*** ./i18n/locales/en.json ***!
   \******************************/
-/*! exports provided: menu, title, posts, content, default */
+/*! exports provided: home, about, title, posts, content, default */
 /***/ (function(module) {
 
-module.exports = {"menu":"Home","title":"My Blog","posts":[{"id":"hello-nextjs","title":"Hello Next.js"},{"id":"learn-nextjs","title":"Learn Next.js is awesome"},{"id":"deploy-nextjs","title":"Deploy apps with Zeit"}],"content":"This is the blog post content."};
+module.exports = {"home":"Home","about":"About","title":"My Blog","posts":[{"id":"hello-nextjs","title":"Hello Next.js"},{"id":"learn-nextjs","title":"Learn Next.js is awesome"},{"id":"deploy-nextjs","title":"Deploy apps with Zeit"}],"content":"This is the blog post content."};
 
 /***/ }),
 
@@ -138,10 +142,10 @@ module.exports = {"menu":"Home","title":"My Blog","posts":[{"id":"hello-nextjs",
 /*!******************************!*\
   !*** ./i18n/locales/ru.json ***!
   \******************************/
-/*! exports provided: menu, title, posts, content, default */
+/*! exports provided: home, about, title, posts, content, default */
 /***/ (function(module) {
 
-module.exports = {"menu":"Главная","title":"Мой блог","posts":[{"id":"hello-nextjs","title":"Hello Next.js"},{"id":"learn-nextjs","title":"Learn Next.js is awesome"},{"id":"deploy-nextjs","title":"Deploy apps with Zeit"}],"content":"Это контент блога"};
+module.exports = {"home":"Главная","about":"О блоге","title":"Мой блог","posts":[{"id":"hello-nextjs","title":"Hello Next.js"},{"id":"learn-nextjs","title":"Learn Next.js is awesome"},{"id":"deploy-nextjs","title":"Deploy apps with Zeit"}],"content":"Это контент блога"};
 
 /***/ }),
 
@@ -6507,7 +6511,7 @@ var IntlMessageFormat = __webpack_require__(/*! ./lib/main */ "./node_modules/in
 
 // Add all locale data to `IntlMessageFormat`. This module will be ignored when
 // bundling for the browser with Browserify/Webpack.
-__webpack_require__(/*! ./lib/locales */ 3);
+__webpack_require__(/*! ./lib/locales */ 2);
 
 // Re-export `IntlMessageFormat` as the CommonJS default exports with all the
 // locale data registered, and with English set as the default locale. Define
@@ -7184,7 +7188,7 @@ var IntlRelativeFormat = __webpack_require__(/*! ./lib/main */ "./node_modules/i
 
 // Add all locale data to `IntlRelativeFormat`. This module will be ignored when
 // bundling for the browser with Browserify/Webpack.
-__webpack_require__(/*! ./lib/locales */ 4);
+__webpack_require__(/*! ./lib/locales */ 3);
 
 // Re-export `IntlRelativeFormat` as the CommonJS default exports with all the
 // locale data registered, and with English set as the default locale. Define
@@ -8887,10 +8891,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FnextJS%2Fpages%2Findex.tsx!./":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FnextJS%2Fpages%2Findex.tsx ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11395,7 +11399,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormattedPlural", function() { return FormattedPlural; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormattedMessage", function() { return FormattedMessage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormattedHTMLMessage", function() { return FormattedHTMLMessage; });
-/* harmony import */ var _locale_data_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../locale-data/index.js */ 2);
+/* harmony import */ var _locale_data_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../locale-data/index.js */ 1);
 /* harmony import */ var _locale_data_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_locale_data_index_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var intl_messageformat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! intl-messageformat */ "./node_modules/intl-messageformat/index.js");
 /* harmony import */ var intl_messageformat__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(intl_messageformat__WEBPACK_IMPORTED_MODULE_1__);
@@ -15085,7 +15089,7 @@ var _i18n_locales_ru_json__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*
 
 
 
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/nextJS/pages/index.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/pages/index.tsx";
 
 
 
@@ -15212,10 +15216,10 @@ function (_React$Component) {
           lineNumber: 51
         },
         __self: this
-      }, _i18n_locales_en_json__WEBPACK_IMPORTED_MODULE_13__.posts.map(function (post, index) {
+      }, _i18n_locales_en_json__WEBPACK_IMPORTED_MODULE_13__.posts.map(function (post) {
         return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(PostLink, {
           id: post.id,
-          key: index,
+          key: post.id,
           title: post.title,
           __source: {
             fileName: _jsxFileName,
@@ -15234,18 +15238,18 @@ function (_React$Component) {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FnextJS%2Fpages%2Findex.tsx ***!
-  \**********************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FnextJS%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FnextJS%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************!*\
   !*** ../locale-data/index.js (ignored) ***!
   \*****************************************/
@@ -15256,7 +15260,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*******************************!*\
   !*** ./lib/locales (ignored) ***!
   \*******************************/
@@ -15267,7 +15271,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** ./lib/locales (ignored) ***!
   \*******************************/

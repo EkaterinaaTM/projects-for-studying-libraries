@@ -49,8 +49,8 @@ export class Index extends React.Component {
             <FormattedMessage id='title'/>
           </h1>
           <ul>
-            {en.posts.map((post, index) => {
-              return <PostLink id={post.id} key={index} title={post.title} />
+            {en.posts.map((post) => {
+              return <PostLink id={post.id} key={post.id} title={post.title} />
             })}
           </ul>
         </Layout>
