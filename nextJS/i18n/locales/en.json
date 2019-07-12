@@ -1,0 +1,10 @@
+{
+        "menu": "Home",
+        "title": "My Blog",
+        "posts": [
+            { "id": "hello-nextjs", "title": "Hello Next.js"},
+            { "id": "learn-nextjs", "title": "Learn Next.js is awesome"},
+            { "id": "deploy-nextjs", "title": "Deploy apps with Zeit"}
+        ],
+        "content": "This is the blog post content."
+} 

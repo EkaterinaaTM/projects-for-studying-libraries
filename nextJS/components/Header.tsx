@@ -1,0 +1,19 @@
+import Link from 'next/link';
+// import { FormattedMessage } from 'react-intl';
+
+const linkStyle = {
+    marginRight: 15
+};
+
+const Header = () => (
+    <header>
+        <Link href="/">
+            <a style={linkStyle}> Home </a>
+        </Link>
+        <Link href="/about">
+            <a style={linkStyle}>About</a>
+      </Link>
+    </header>
+);
+
+export default Header;
