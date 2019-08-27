@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "react-intl");
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_intl__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Header.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/components/Header.tsx";
 
 
 
@@ -190,7 +190,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.tsx");
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Layout.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/components/Layout.tsx";
 
 
 var layoutStyle = {
@@ -1286,7 +1286,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/pages/post.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/pages/post.tsx";
 
 
  // import {  FormattedMessage } from 'react-intl';
@@ -1324,7 +1324,7 @@ var Post = function Post() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/pages/post.tsx */"./pages/post.tsx");
+module.exports = __webpack_require__(/*! /Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/pages/post.tsx */"./pages/post.tsx");
 
 
 /***/ }),

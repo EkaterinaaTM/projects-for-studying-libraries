@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Header.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/components/Header.tsx";
 
 
 
@@ -96,7 +96,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.tsx");
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/components/Layout.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/components/Layout.tsx";
 
 
 var layoutStyle = {
@@ -8891,10 +8891,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Ffront-end%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Ffront-end%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15089,7 +15089,7 @@ var _i18n_locales_ru_json__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*
 
 
 
-var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/study projects/Next/nextJS/pages/index.tsx";
+var _jsxFileName = "/Users/ekaterinamihajlina/Downloads/front-end/study projects/Next/nextJS/pages/index.tsx";
 
 
 
@@ -15238,13 +15238,13 @@ function (_React$Component) {
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
-  \*****************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Ffront-end%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Ffront-end%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fekaterinamihajlina%2FDownloads%2Ffront-end%2Fstudy%20projects%2FNext%2FnextJS%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),

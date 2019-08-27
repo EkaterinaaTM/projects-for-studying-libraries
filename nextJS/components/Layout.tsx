@@ -11,7 +11,7 @@ interface ILayoutProps {
   children?: ReactNode;
 }
 
-const Layout: React.FC = ({children}:ILayoutProps)  => (
+const Layout: React.FC<ILayoutProps> = ({children})  => (
   <div style={layoutStyle}>
     <Header/>
     {children}
